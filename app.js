@@ -22,6 +22,9 @@ searchUser.addEventListener('keyup',(e) =>{
             }else{
                 // Show profile of the user
                 ui.showProfile(data.profile);
+
+                // Show User's latest repos
+                ui.showRepos(data.repos);
             }
         });
     } else{
